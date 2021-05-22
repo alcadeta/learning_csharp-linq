@@ -7,12 +7,15 @@ namespace FunctionalConcepts
     /// into the C#. They were released at the same time as LINQ and many of
     /// them are enablers for LINQ — they make it easier to write LINQ code.
     /// </summary>
-    class Program
+    static class Program
     {
+        // Some of the demonstrate methods below do nothing. Navigate to their
+        // definition to see what they're about.
         static void Main(string[] args)
         {
             // ImplicitlyTypedVariables.Demonstrate();
-            AnonymousTypes.Demonstrate();
+            // AnonymousTypes.Demonstrate();
+            ObjectInitialisers.Demonstrate();
         }
     }
 }
