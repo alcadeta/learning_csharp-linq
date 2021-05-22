@@ -16,7 +16,8 @@ namespace FunctionalConcepts
             // ImplicitlyTypedVariables.Demonstrate();
             // AnonymousTypes.Demonstrate();
             // ObjectInitialisers.Demonstrate();
-            CollectionInitialisers.Demonstrate();
+            // CollectionInitialisers.Demonstrate();
+            LambdaExpressions.Demonstrate();
         }
     }
 }
