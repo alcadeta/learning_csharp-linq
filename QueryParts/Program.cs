@@ -7,7 +7,8 @@ namespace QueryParts
         static void Main(string[] args)
         {
             // Sources.Demonstrate();
-            TheEnumerableClass.Demonstrate();
+            // TheEnumerableClass.Demonstrate();
+            TheEnumerableStaticMethods.Demonstrate();
         }
     }
 }
