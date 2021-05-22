@@ -12,28 +12,31 @@ namespace QueryParts
             // IEnumerable sources
             var a1 = Assembly.Load("System.Collections");
 
-            var q1 = from t in a1.GetExportedTypes()
-                from i in t.GetInterfaces()
-                where i.IsGenericType && t.IsClass && i.GetGenericTypeDefinition() == typeof(IEnumerable<>)
-                orderby t.Name
-                select t.Name;
+            var q1 = a1.GetExportedTypes()
+                .SelectMany(t => t.GetInterfaces(), (t, i) => new {t, i})
+                .Where(ti => ti.i.IsGenericType
+                             && ti.t.IsClass
+                             && ti.i.GetGenericTypeDefinition() == typeof(IEnumerable<>))
+                .OrderBy(ti => ti.t.Name)
+                .Select(ti => ti.t.Name);
 
-            Console.WriteLine("IEnumerable sources:");
-            q1.Dump();
+            Console.WriteLine("1. IEnumerable sources:");
+            foreach (var str in q1) Console.WriteLine(str);
 
 
             // IQueryableSources
             var a2 = Assembly.Load("System.Linq.Queryable");
 
-            var q2 = from t in a2.GetExportedTypes()
-                from i in t.GetInterfaces()
-                where i.IsGenericType
-                      && t.IsClass
-                      && i.GetGenericTypeDefinition() == typeof(IQueryable<>)
-                orderby t.Name
-                select t.Name;
+            var q2 = a2.GetExportedTypes()
+                .SelectMany(t => t.GetInterfaces(), (t, i) => new {t, i})
+                .Where(ti => ti.i.IsGenericType
+                             && ti.t.IsClass
+                             && ti.i.GetGenericTypeDefinition() == typeof(IQueryable<>))
+                .OrderBy(ti => ti.t.Name)
+                .Select(ti => ti.t.Name);
 
-            q2.Dump();
+            Console.WriteLine("\n2. IQueryable sources:");
+            foreach (var str in q2) Console.WriteLine(str);
         }
     }
 }
