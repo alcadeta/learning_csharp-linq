@@ -11,7 +11,8 @@ namespace FunctionalConcepts
     {
         static void Main(string[] args)
         {
-            ImplicitlyTypedVariables.Demonstrate();
+            // ImplicitlyTypedVariables.Demonstrate();
+            AnonymousTypes.Demonstrate();
         }
     }
 }
