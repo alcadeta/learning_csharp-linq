@@ -18,7 +18,8 @@ namespace FunctionalConcepts
             // ObjectInitialisers.Demonstrate();
             // CollectionInitialisers.Demonstrate();
             // LambdaExpressions.Demonstrate();
-            ExtensionMethods.Demonstrate();
+            // ExtensionMethods.Demonstrate();
+            GenericTypes.Demonstrate();
         }
     }
 }
