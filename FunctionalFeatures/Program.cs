@@ -17,7 +17,8 @@ namespace FunctionalConcepts
             // AnonymousTypes.Demonstrate();
             // ObjectInitialisers.Demonstrate();
             // CollectionInitialisers.Demonstrate();
-            LambdaExpressions.Demonstrate();
+            // LambdaExpressions.Demonstrate();
+            ExtensionMethods.Demonstrate();
         }
     }
 }
