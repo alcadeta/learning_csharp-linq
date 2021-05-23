@@ -12,7 +12,8 @@ namespace QueryParts
             // EnumerableExtensionMethods.Demonstrate();
             // QueryExpressionSyntax.Demonstrate();
             // ExampleSources.Demonstrate();
-            DeferredExecution.Demonstrate();
+            // DeferredExecution.Demonstrate();
+            Pipelines.Demonstrate();
         }
     }
 }

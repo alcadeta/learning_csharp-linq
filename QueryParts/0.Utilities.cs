@@ -6,7 +6,7 @@ namespace QueryParts
 {
     public static class Utilities
     {
-        public static List<string> Colors = new List<string>
+        public static readonly List<string> Colors = new()
         {
             "Green", "Blush", "Yellow", "Red", "Orange", "Burgundy", "Purple",
             "White", "Black", "Blue", "Bronze", "Crimson", "Caramel", "Copper"
