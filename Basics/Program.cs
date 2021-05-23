@@ -7,7 +7,8 @@ namespace Basics
         static void Main(string[] args)
         {
             // Clauses.Demonstrate();
-            ThreeTypesOfQEs.Demonstrate();
+            // ThreeTypesOfQEs.Demonstrate();
+            TheSelectClause.Demonstrate();
         }
     }
 }

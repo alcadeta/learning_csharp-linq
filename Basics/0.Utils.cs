@@ -17,5 +17,5 @@ namespace Basics
             if (header != null) Console.Write(header + ": ");
             Console.Write(JsonConvert.SerializeObject(dumpee) + "\n\n");
         }
-    }
+	}
 }
