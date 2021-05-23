@@ -10,7 +10,8 @@ namespace QueryParts
             // EnumerableClass.Demonstrate();
             // EnumerableStaticMethods.Demonstrate();
             // EnumerableExtensionMethods.Demonstrate();
-            QueryExpressionSyntax.Demonstrate();
+            // QueryExpressionSyntax.Demonstrate();
+            ExampleSources.Demonstrate();
         }
     }
 }

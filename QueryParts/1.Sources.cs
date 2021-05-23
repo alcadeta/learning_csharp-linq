@@ -5,6 +5,10 @@ using System.Reflection;
 
 namespace QueryParts
 {
+    /// <summary>
+    /// LINQ works with objects that implement IEnumerable&lt;T&gt; or
+    /// IQueryable&lt;T&gt; interfaces.
+    /// </summary>
     public static class Sources
     {
         public static void Demonstrate()
