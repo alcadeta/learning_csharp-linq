@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryParts", "QueryParts\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate", "Generate\Generate.csproj", "{F6FC2998-0E0B-4CD8-B4DC-55AEF4660635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{345C435D-327F-4BC5-B219-1BC5B2A9DCE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F6FC2998-0E0B-4CD8-B4DC-55AEF4660635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6FC2998-0E0B-4CD8-B4DC-55AEF4660635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6FC2998-0E0B-4CD8-B4DC-55AEF4660635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345C435D-327F-4BC5-B219-1BC5B2A9DCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345C435D-327F-4BC5-B219-1BC5B2A9DCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345C435D-327F-4BC5-B219-1BC5B2A9DCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345C435D-327F-4BC5-B219-1BC5B2A9DCE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
