@@ -8,7 +8,8 @@ namespace Basics
         {
             // Clauses.Demonstrate();
             // ThreeTypesOfQEs.Demonstrate();
-            TheSelectClause.Demonstrate();
+            // TheSelectClause.Demonstrate();
+            Projections.Demonstrate();
         }
     }
 }
