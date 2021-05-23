@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseLib", "CourseLib\CourseLib.csproj", "{8BE196A3-327E-4D64-BD01-0991BBDC223C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering", "Filtering\Filtering.csproj", "{CF196D74-ECA3-45A7-A875-67B853368BCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8BE196A3-327E-4D64-BD01-0991BBDC223C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE196A3-327E-4D64-BD01-0991BBDC223C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE196A3-327E-4D64-BD01-0991BBDC223C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF196D74-ECA3-45A7-A875-67B853368BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF196D74-ECA3-45A7-A875-67B853368BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF196D74-ECA3-45A7-A875-67B853368BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF196D74-ECA3-45A7-A875-67B853368BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
