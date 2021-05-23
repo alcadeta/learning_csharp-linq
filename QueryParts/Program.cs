@@ -7,9 +7,10 @@ namespace QueryParts
         static void Main(string[] args)
         {
             // Sources.Demonstrate();
-            // TheEnumerableClass.Demonstrate();
-            // TheEnumerableStaticMethods.Demonstrate();
-            TheEnumerableExtensionMethods.Demonstrate();
+            // EnumerableClass.Demonstrate();
+            // EnumerableStaticMethods.Demonstrate();
+            // EnumerableExtensionMethods.Demonstrate();
+            QueryExpressionSyntax.Demonstrate();
         }
     }
 }

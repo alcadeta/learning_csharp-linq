@@ -7,15 +7,11 @@ namespace QueryParts
     /// The extension method syntax simplifies the syntax and makes it easier
     /// to understand your intent.
     /// </summary>
-    public static class TheEnumerableExtensionMethods
+    public static class EnumerableExtensionMethods
     {
         public static void Demonstrate()
         {
-            var colors = new List<string>
-            {
-                "Green", "Blush", "Yellow", "Red", "Orange",
-                "Burgundy", "Purple", "White", "Black", "Blue", "Bronze"
-            };
+            var colors = Utilities.Colors;
             colors.Dump("ORIGINAL LIST");
 
             // Enumerable.Where(colors, c => c.StartsWith('B')).Dump();

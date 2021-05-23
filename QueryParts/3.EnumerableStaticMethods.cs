@@ -5,15 +5,11 @@ using Newtonsoft.Json;
 
 namespace QueryParts
 {
-    public static class TheEnumerableStaticMethods
+    public static class EnumerableStaticMethods
     {
         public static void Demonstrate()
         {
-            var colors = new List<string>
-            {
-                "Green", "Blush", "Yellow", "Red", "Orange",
-                "Burgundy", "Purple", "White", "Black", "Blue", "Bronze"
-            };
+            var colors = Utilities.Colors;
             colors.Dump("ORIGINAL LIST");
 
             var bColors = Enumerable.Where(colors, c => c.StartsWith('B'));

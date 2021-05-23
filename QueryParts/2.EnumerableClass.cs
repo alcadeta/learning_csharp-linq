@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace QueryParts
 {
-    public static class TheEnumerableClass
+    public static class EnumerableClass
     {
         public static void Demonstrate()
         {
