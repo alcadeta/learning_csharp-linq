@@ -10,7 +10,8 @@ namespace Generate
         static void Main(string[] args)
         {
             // Empty.Demonstrate();
-            Repeat.Demonstrate();
+            // Repeat.Demonstrate();
+            Range.Demonstrate();
         }
     }
 }
