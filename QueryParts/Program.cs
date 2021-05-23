@@ -8,7 +8,8 @@ namespace QueryParts
         {
             // Sources.Demonstrate();
             // TheEnumerableClass.Demonstrate();
-            TheEnumerableStaticMethods.Demonstrate();
+            // TheEnumerableStaticMethods.Demonstrate();
+            TheEnumerableExtensionMethods.Demonstrate();
         }
     }
 }
