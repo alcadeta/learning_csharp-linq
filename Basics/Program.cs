@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Basics
 {
@@ -10,7 +11,15 @@ namespace Basics
             // ThreeTypesOfQEs.Demonstrate();
             // TheSelectClause.Demonstrate();
             // Projections.Demonstrate();
-            SelectAnonymousType.Demonstrate();
+            // SelectAnonymousType.Demonstrate();
+            ExpressionsWithSelect.Demonstrate();
+
+            // Code Challenge — My Solution:
+            var q = from color in CourseLib.ColorSource.GetColors()
+                orderby color.GreenValue descending
+                select $"{color.ColorName}, " +
+                       $"rgb ({color.RedValue:D3}, {color.GreenValue:D3}, {color.BlueValue:D3})";
+            q.Dump("My solution");
         }
     }
 }
