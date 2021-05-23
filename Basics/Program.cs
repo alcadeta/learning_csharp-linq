@@ -6,7 +6,8 @@ namespace Basics
     {
         static void Main(string[] args)
         {
-            Clauses.Demonstrate();
+            // Clauses.Demonstrate();
+            ThreeTypesOfQEs.Demonstrate();
         }
     }
 }
