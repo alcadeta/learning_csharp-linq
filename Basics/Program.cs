@@ -12,14 +12,16 @@ namespace Basics
             // TheSelectClause.Demonstrate();
             // Projections.Demonstrate();
             // SelectAnonymousType.Demonstrate();
-            ExpressionsWithSelect.Demonstrate();
+            // ExpressionsWithSelect.Demonstrate();
+            IndexIntoAnotherSeq.Demonstrate();
+
 
             // Code Challenge — My Solution:
             var q = from color in CourseLib.ColorSource.GetColors()
                 orderby color.GreenValue descending
                 select $"{color.ColorName}, " +
                        $"rgb ({color.RedValue:D3}, {color.GreenValue:D3}, {color.BlueValue:D3})";
-            q.Dump("My solution");
+            // q.Dump("My solution");
         }
     }
 }
