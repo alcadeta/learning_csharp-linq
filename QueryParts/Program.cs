@@ -13,7 +13,8 @@ namespace QueryParts
             // QueryExpressionSyntax.Demonstrate();
             // ExampleSources.Demonstrate();
             // DeferredExecution.Demonstrate();
-            Pipelines.Demonstrate();
+            // Pipelines.Demonstrate();
+            CombiningEmAndQeSyntax.Demonstrate();
         }
     }
 }
