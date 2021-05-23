@@ -9,7 +9,8 @@ namespace Generate
     {
         static void Main(string[] args)
         {
-            Empty.Demonstrate();
+            // Empty.Demonstrate();
+            Repeat.Demonstrate();
         }
     }
 }
