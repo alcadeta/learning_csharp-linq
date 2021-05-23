@@ -9,7 +9,8 @@ namespace Basics
             // Clauses.Demonstrate();
             // ThreeTypesOfQEs.Demonstrate();
             // TheSelectClause.Demonstrate();
-            Projections.Demonstrate();
+            // Projections.Demonstrate();
+            SelectAnonymousType.Demonstrate();
         }
     }
 }
