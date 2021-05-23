@@ -8,8 +8,8 @@ namespace QueryParts
     {
         public static List<string> Colors = new List<string>
         {
-            "Green", "Blush", "Yellow", "Red", "Orange",
-            "Burgundy", "Purple", "White", "Black", "Blue", "Bronze"
+            "Green", "Blush", "Yellow", "Red", "Orange", "Burgundy", "Purple",
+            "White", "Black", "Blue", "Bronze", "Crimson", "Caramel", "Copper"
         };
 
         public static void Dump(this object dumpee, string header = null)

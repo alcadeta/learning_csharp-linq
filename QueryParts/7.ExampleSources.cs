@@ -16,7 +16,7 @@ namespace QueryParts
         {
             // array
             var arr = new double[] {4.4, 2.2, 6.6};
-            var q1 = from a in arr orderby a select a;
+            var q1 = arr.OrderBy(a => a);
             q1.Dump("array");
 
             // stack
@@ -42,7 +42,6 @@ namespace QueryParts
             q5.Dump();
             var q6 = from s in str2 where s == 'B' select s;
             q6.Count().Dump();
-
         }
     }
 }
