@@ -2,6 +2,10 @@ using System.Linq;
 
 namespace Filtering
 {
+    /// <summary>
+    /// The `where` clause filters a sequence based on a predicate function
+    /// that's applied to each element in the sequence.
+    /// </summary>
     public static class Where
     {
         public static void Demonstrate()

@@ -6,7 +6,8 @@ namespace Filtering
     {
         static void Main(string[] args)
         {
-            Where.Demonstrate();
+            // Where.Demonstrate();
+            LogicalOperatorsInWhere.Demonstrate();
         }
     }
 }
