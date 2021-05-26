@@ -8,7 +8,9 @@ namespace Filtering
         {
             // Where.Demonstrate();
             // LogicalOperatorsInWhere.Demonstrate();
-            OfType.Demonstrate();
+            // OfType.Demonstrate();
+            Challenge.MySolution();
+            Challenge.TutorsSolution();
         }
     }
 }
