@@ -6,8 +6,10 @@ namespace Aggregation
 {
     public static class Common
     {
-        public static void Demonstrate(List<int> numbers)
+        public static void Demonstrate()
         {
+            var numbers = new List<int> {50, 4, 10, 3, 90, 8, -60, 7, 20, 5};
+
             var total = numbers.Sum();
             var median = numbers.Average();
             var lowest = numbers.Min();

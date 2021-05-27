@@ -18,9 +18,8 @@ namespace Aggregation
     {
         static void Main(string[] args)
         {
-            var numbers = new List<int> {50, 4, 10, 3, 90, 8, -60, 7, 20, 5};
-
-            Common.Demonstrate(numbers);
+            // Common.Demonstrate();
+            Custom.Demonstrate();
         }
     }
 }
