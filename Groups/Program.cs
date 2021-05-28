@@ -6,7 +6,8 @@
         {
             // GroupBy.Demonstrate();
             // ElementSelector.Demonstrate();
-            ResultSelector.Demonstrate();
+            // ResultSelector.Demonstrate();
+            IteratingOverGroups.Demonstrate();
         }
     }
 }
