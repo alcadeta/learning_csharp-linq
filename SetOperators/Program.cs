@@ -6,7 +6,8 @@
         {
             // Distinct.Demonstrate();
             // Intersect.Demonstrate();
-            Union.Demonstrate();
+            // Union.Demonstrate();
+            Except.Demonstrate();
         }
     }
 }
