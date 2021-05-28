@@ -7,7 +7,8 @@
             // Distinct.Demonstrate();
             // Intersect.Demonstrate();
             // Union.Demonstrate();
-            Except.Demonstrate();
+            // Except.Demonstrate();
+            Duplicates.Demonstrate();
         }
     }
 }
