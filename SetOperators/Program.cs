@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Distinct.Demonstrate();
+            // Distinct.Demonstrate();
+            Intersect.Demonstrate();
         }
     }
 }
