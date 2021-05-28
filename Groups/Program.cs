@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             // GroupBy.Demonstrate();
-            ElementSelector.Demonstrate();
+            // ElementSelector.Demonstrate();
+            ResultSelector.Demonstrate();
         }
     }
 }
