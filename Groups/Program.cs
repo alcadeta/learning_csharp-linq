@@ -8,7 +8,8 @@
             // ElementSelector.Demonstrate();
             // ResultSelector.Demonstrate();
             // IteratingOverGroups.Demonstrate();
-            CombiningSequences.Demonstrate();
+            // CombiningSequences.Demonstrate();
+            SelectMany.Demonstrate();
         }
     }
 }
