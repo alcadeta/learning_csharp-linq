@@ -9,7 +9,10 @@
             // ResultSelector.Demonstrate();
             // IteratingOverGroups.Demonstrate();
             // CombiningSequences.Demonstrate();
-            SelectMany.Demonstrate();
+            // SelectMany.Demonstrate();
+
+            Challenge.MySolution();
+            Challenge.TutorsSolution();
         }
     }
 }
