@@ -9,7 +9,8 @@ namespace ElementOperations
         {
             // FirstAndLastMethods.Demonstrate();
             // FirstOrDefault.Demonstrate();
-            ElementAt.Demonstrate();
+            // ElementAt.Demonstrate();
+            Single.Demonstrate();
         }
     }
 }
