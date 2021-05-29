@@ -6,7 +6,8 @@ namespace Partition
     {
         static void Main(string[] args)
         {
-            SkipAndTake.Demonstrate();
+            // SkipAndTake.Demonstrate();
+            ConditionalSkipAndTake.Demonstrate();
         }
     }
 }
