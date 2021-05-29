@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperators", "SetOperator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantifyData", "QuantifyData\QuantifyData.csproj", "{77DB3807-1886-4017-97E7-08DD197AB83F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partition", "Partition\Partition.csproj", "{17244E0F-AEB3-4344-BE39-E633C9A83F4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{77DB3807-1886-4017-97E7-08DD197AB83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DB3807-1886-4017-97E7-08DD197AB83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DB3807-1886-4017-97E7-08DD197AB83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17244E0F-AEB3-4344-BE39-E633C9A83F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17244E0F-AEB3-4344-BE39-E633C9A83F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17244E0F-AEB3-4344-BE39-E633C9A83F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17244E0F-AEB3-4344-BE39-E633C9A83F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
