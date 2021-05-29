@@ -7,7 +7,8 @@ namespace QuantifyData
     {
         static void Main(string[] args)
         {
-            Any.Demonstrate();
+            // Any.Demonstrate();
+            Contains.Demonstrate();
         }
     }
 }
